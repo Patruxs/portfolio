@@ -10,6 +10,7 @@ import { useRef } from "react";
 import Navbar from "@/components/Navbar";
 import Contact from "@/components/Contact";
 import Image from "next/image";
+import profilePic from "../../public/images/profile.jpg";
 
 export default function Home() {
   const homeRef = useRef<HTMLDivElement>(null as unknown as HTMLDivElement);
@@ -53,7 +54,7 @@ export default function Home() {
               <div className="flex flex-row gap-5 items-center mt-6">
                 <a
                   className="py-1 px-4 shadow-md border-1 border-base-100 dark:border-base-400 dark:text-white rounded-md  flex items-center gap-3 text-base-500 hover:bg-base-100/50 dark:hover:bg-base-400"
-                  href="/files/Lai_Thuan_Phat_CV.pdf"
+                  href="files/Lai_Thuan_Phat_CV.pdf"
                   download
                 >
                   Resume
@@ -88,7 +89,7 @@ export default function Home() {
             </div>
             {/* tablet & desktop */}
             <Image
-              src="/images/profile.jpg"
+              src={profilePic}
               alt="Lai Thuan Phat"
               width={250}
               height={300}
@@ -97,7 +98,7 @@ export default function Home() {
             />
             {/* mobile */}
             <Image
-              src="/images/profile.jpg"
+              src={profilePic}
               alt="Lai Thuan Phat"
               width={160}
               height={192}

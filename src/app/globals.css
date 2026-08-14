@@ -13,7 +13,7 @@
 
 @font-face {
   font-family: 'rollingStone';
-  src: url('/fonts/rollingStone.ttf') format('truetype');
+  src: url('./fonts/rollingStone.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
