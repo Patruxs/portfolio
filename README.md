@@ -1,4 +1,4 @@
-# Lai Thuan Phat - Portfolio
+# Portfolio
 
 My personal portfolio website.
 
