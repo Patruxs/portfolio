@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# previous site owner's files, kept locally only
+/_previous-owner-assets/
