@@ -14,7 +14,3 @@ npm run dev
 ```
 
 Then open [http://localhost:3000](http://localhost:3000).
-
-## Deploy
-
-Push to `main` and GitHub Actions deploys the site to GitHub Pages automatically.
